@@ -1,0 +1,167 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Montserrat', sans-serif; 
+    background-color: #fff; 
+   
+
+    padding: 40px;
+}
+.container {
+    display: flex;
+    width:  1200px;
+    height: 1500px;
+    box-shadow: 10px 10px 20px 0px rgb(131, 130, 130);
+
+    margin-left: auto;
+    margin-right: auto;
+}
+/* main */
+.right_side {
+    width: 830px;
+    background-color: rgba(248, 240, 240, 0.938);
+    
+    padding-top: 70px;
+    padding-right: 200px;
+    padding-bottom: 70px;
+    padding-left: 80px;
+}
+
+.bio-title {
+    font-size: 45px;
+    font-family:'Montserrat', sans-serif; 
+    color: #2a2a2a;
+
+    margin-bottom: 25px;
+}
+
+.bio-about {
+    font-size: 18px;
+    line-height: 2;
+    color: #595959;
+}
+
+.jobs-title {
+    font-size: 22px;
+    line-height: 1.091;
+    color: #2a2a2a;
+
+    margin-bottom: 25px;
+}
+.jobs-item {
+    font-size: 16px;
+    line-height: 1.5;
+
+    margin-bottom: 25px;
+}
+
+.jobs-period {
+    font-size: 12px;
+    line-height: 2;
+   color:#828282;
+
+   margin-bottom: 18px;
+}
+
+.education-title {
+    font-size: 22px;
+    line-height: 1.1;
+    color: #2a2a2a;
+
+    margin-bottom: 25px;
+}
+
+.education-degree {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2a2a2a;
+
+    margin-bottom: 15px;
+}
+
+.education-period {
+    font-size: 12px;
+    line-height: 2;
+    color: #828282;
+
+    margin-bottom: 18px;
+}
+
+.accent {
+    color: #ff6b08;
+}
+
+
+
+
+.bio,
+.jobs,
+.education {
+    margin-bottom: 60px;
+}
+
+.left-side {
+    width: 370px;
+    background-color: #1e2939;
+   
+}
+
+.contacts-title,
+ .skills-title {
+   
+    font-size: 22px;
+    line-height: 1.1;
+    color: #fff;
+}
+
+.contacts-item {
+ list-style: none;
+}
+
+.contacts-item,
+.skills-item {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #fff;
+}
+
+.skills-item {
+  list-style: none;
+}
+
+.skills-item::before {
+    content: '\2022';
+    font-size: 18px;
+    color: #ff6b08;
+
+    margin-right: 8px;
+}
+
+.contacts-link {
+
+    color: #fff;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.contacts-link:hover {
+    opacity: 1;
+}
+
+.photo,
+.contacts,
+.skills {
+    margin-bottom: 60px;
+}
+
+.contacts,
+.skills {
+    padding-left: 40px;
+}
+
+
+
